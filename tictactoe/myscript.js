@@ -77,7 +77,7 @@ function disablePanel() {
 
 // reloader button
 
-let reloadButton = '<br><br><button onclick="reloadPage()">Jogar de novo</button>'
+let reloadButton = '<br><br><button onclick="reloadPage()">Jogar de novo</button>';
 
 // function to check if someone has won the game on every turn
 
