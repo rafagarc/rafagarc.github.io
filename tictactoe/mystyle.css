@@ -1,0 +1,60 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #cccccc;
+}
+
+body {
+    text-align: center;
+}
+
+
+
+.board {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 30px;
+    height: 30px;
+    font-size: larger;
+}
+
+#A1, #B1, #C1, #A2, #B2, #C2 {
+    border-bottom: 2px solid #000;
+}
+
+#A1, #A2, #A3, #B1, #B2, #B3 {
+    border-right: 2px solid #000;
+}
+
+#turndisplayer {
+    font-size: smaller;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+button {
+    border: 2px solid #000000;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button:active {
+
+    background-color: #444;
+    color: #bbb;
+    border-color: #000;
+    }
