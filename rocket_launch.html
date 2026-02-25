@@ -9,14 +9,14 @@
   <title>Rocket lauch (test)</title>
   <style>
     body {
-      color: #ffffff;
+      color: #a3a3a3;
       font-family: sans-serif;
       overflow: hidden;
       margin: 0;
       padding: 0;
     }
     :root, body.is-fullscreen {
-      background-color: #000000;
+      background-color: #ffffff;
     }
     [hidden] {
       display: none !important;
@@ -46,7 +46,7 @@
       cursor: default;
       user-select: none;
       -webkit-user-select: none;
-      background-color: #000000;
+      background-color: #ffffff;
     }
     #launch {
       background-color: rgba(0, 0, 0, 0.7);
@@ -142,7 +142,7 @@
     }
     
   </style>
-  <meta name="theme-color" content="#000000">
+  <meta name="theme-color" content="#ffffff">
   
 </head>
 <body>
@@ -370,7 +370,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
       await scaffolding.loadProject(projectData);
       setProgress(1);
       loadingScreen.hidden = true;
-      if (false) {
+      if (true) {
         scaffolding.start();
       } else {
         launchScreen.hidden = false;
